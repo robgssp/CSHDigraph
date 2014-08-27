@@ -9,6 +9,7 @@ digraph "Packet Dependencies" {
 		fontname = "Monospace" ];
 
 	"Dakota Folger-Reeder";
+	"Nick Depinet";
 	"Peter Zujko";
 	"Reed Swiernik";
 	"Ross Delinger";
@@ -18,6 +19,7 @@ digraph "Packet Dependencies" {
         "Matt Campbell";
 
 	"Ross Delinger" -> "Slackwill";
+	"Ross Delinger" -> "Nick Depinet";
 	"Slackwill" -> "Reed Swiernik";
 	"Slackwill" -> "Peter Zujko";
 	"Slackwill" -> "Dakota Folger-Reeder";
