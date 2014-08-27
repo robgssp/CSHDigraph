@@ -42,8 +42,8 @@ digraph "Packet Dependencies" {
 	"Slackwill" -> "Dakota Folger-Reeder";
 	"Slackwill" -> "Ehouse";
 	"Slackwill" -> "Reed Swiernik";
-	"Travis Whitaker -> "Matt Gambogi";
-	"Travis Whitaker -> "Steven DuBois";
+	"Travis Whitaker" -> "Matt Gambogi";
+	"Travis Whitaker" -> "Steven DuBois";
 	"Travis Whitaker" -> "Henry Brown";
 	"Travis Whitaker" -> "Slackwill";
 }
