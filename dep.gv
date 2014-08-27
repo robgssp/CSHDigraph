@@ -8,13 +8,23 @@ digraph "Packet Dependencies" {
 		style = filled,
 		fontname = "Monospace" ];
 
+	"Channon Price";
 	"Dakota Folger-Reeder";
+	"Eric Adams";
+	"JD";
+	"Joe Gambino";
 	"Nick Depinet";
+	"Matt Gambogi";
 	"Peter Zujko";
 	"Reed Swiernik";
 	"Ross Delinger";
+	"Ross Guarino";
 	"Slackwill";
 
+	"Channon Price" -> "Eric Adams";
+	"Channon Price" -> "Ross Guarino";
+	"Joe Gambino" -> "JD";
+	"Joe Gambino" -> "Matt Gambogi";
 	"Ross Delinger" -> "Slackwill";
 	"Ross Delinger" -> "Nick Depinet";
 	"Slackwill" -> "Reed Swiernik";
