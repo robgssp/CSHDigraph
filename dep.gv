@@ -1,41 +1,49 @@
 digraph "Packet Dependencies" {
 	graph [ fontname = "Monospace",
-	      	fontsize = 24,
+		fontsize = 24,
 		label = "Freshman Packet Dependency Graph",
 		size = "6,6" ];
 	node [	shape = oval,
-	     	color = grey,
+		color = grey,
 		style = filled,
 		fontname = "Monospace" ];
 
+	"Alex Walcutt";
+	"Bradley Campbell";
 	"Channon Price";
 	"Dakota Folger-Reeder";
+	"Ehouse";
 	"Eric Adams";
+	"Henry Brown";
 	"JD";
 	"Joe Gambino";
-	"Nick Depinet";
+	"Matt Campbell";
 	"Matt Gambogi";
+	"Nick Depinet";
 	"Peter Zujko";
 	"Reed Swiernik";
 	"Ross Bayer";
 	"Ross Delinger";
 	"Ross Guarino";
 	"Slackwill";
-        "Ehouse";
-        "Bradley Campbell";
-        "Matt Campbell";
+	"Steven DuBois"
+	"Travis Whitaker";
 
 	"Channon Price" -> "Eric Adams";
 	"Channon Price" -> "Ross Guarino";
+	"Ehouse" -> "Bradley Campbell";
+	"Ehouse" -> "Matt Campbell";
 	"Joe Gambino" -> "JD";
 	"Joe Gambino" -> "Matt Gambogi";
-	"Ross Delinger" -> "Slackwill";
 	"Ross Delinger" -> "Nick Depinet";
-	"Ross Delinger" -> "Ross Guarino";
 	"Ross Delinger" -> "Ross Bayer";
-	"Slackwill" -> "Reed Swiernik";
-	"Slackwill" -> "Ehouse";
+	"Ross Delinger" -> "Ross Guarino";
+	"Ross Delinger" -> "Slackwill";
 	"Slackwill" -> "Dakota Folger-Reeder";
-        "Ehouse" -> "Bradley Campbell";
-        "Ehouse" -> "Matt Campbell";
+	"Slackwill" -> "Ehouse";
+	"Slackwill" -> "Reed Swiernik";
+	"Travis Whitaker -> "Matt Gambogi";
+	"Travis Whitaker -> "Steven DuBois";
+	"Travis Whitaker" -> "Henry Brown";
+	"Travis Whitaker" -> "Slackwill";
 }
