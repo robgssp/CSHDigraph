@@ -17,6 +17,7 @@ digraph "Packet Dependencies" {
 	"Matt Gambogi";
 	"Peter Zujko";
 	"Reed Swiernik";
+	"Ross Bayer";
 	"Ross Delinger";
 	"Ross Guarino";
 	"Slackwill";
@@ -27,6 +28,8 @@ digraph "Packet Dependencies" {
 	"Joe Gambino" -> "Matt Gambogi";
 	"Ross Delinger" -> "Slackwill";
 	"Ross Delinger" -> "Nick Depinet";
+	"Ross Delinger" -> "Ross Guarino";
+	"Ross Delinger" -> "Ross Bayer";
 	"Slackwill" -> "Reed Swiernik";
 	"Slackwill" -> "Peter Zujko";
 	"Slackwill" -> "Dakota Folger-Reeder";
