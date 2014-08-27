@@ -21,6 +21,9 @@ digraph "Packet Dependencies" {
 	"Ross Delinger";
 	"Ross Guarino";
 	"Slackwill";
+        "Ehouse";
+        "Bradley Campbell";
+        "Matt Campbell";
 
 	"Channon Price" -> "Eric Adams";
 	"Channon Price" -> "Ross Guarino";
@@ -33,4 +36,6 @@ digraph "Packet Dependencies" {
 	"Slackwill" -> "Reed Swiernik";
 	"Slackwill" -> "Peter Zujko";
 	"Slackwill" -> "Dakota Folger-Reeder";
+        "Ehouse" -> "Bradley Campbell";
+        "Ehouse" -> "Matt Campbell";
 }
