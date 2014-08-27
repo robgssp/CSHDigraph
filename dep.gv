@@ -26,6 +26,8 @@ digraph "Packet Dependencies" {
 	"Slackwill";
 	"Steven DuBois"
 	"Travis Whitaker";
+	"Chase Berry";
+	"Harlan Haskins";
 
 	"Channon Price" -> "Eric Adams";
 	"Channon Price" -> "Ross Guarino";
@@ -44,4 +46,5 @@ digraph "Packet Dependencies" {
 	"Travis Whitaker" -> "Steven DuBois";
 	"Travis Whitaker" -> "Henry Brown";
 	"Travis Whitaker" -> "Slackwill";
+	"Harlan Haskins" -> "Chase Berry";
 }
