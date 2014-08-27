@@ -16,3 +16,5 @@ $ make -k
 ## Live Graph
 
 http://www.csh.rit.edu/~slackwill/dep.png
+
+![dep graph](http://www.csh.rit.edu/~slackwill/dep.png)
