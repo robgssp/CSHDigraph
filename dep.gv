@@ -13,9 +13,14 @@ digraph "Packet Dependencies" {
 	"Reed Swiernik";
 	"Ross Delinger";
 	"Slackwill";
+        "Ehouse";
+        "Bradley Campbell";
+        "Matt Campbell";
 
 	"Ross Delinger" -> "Slackwill";
 	"Slackwill" -> "Reed Swiernik";
 	"Slackwill" -> "Peter Zujko";
 	"Slackwill" -> "Dakota Folger-Reeder";
+        "Ehouse" -> "Bradley Campbell";
+        "Ehouse" -> "Matt Campbell";
 }
