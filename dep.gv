@@ -8,8 +8,14 @@ digraph "Packet Dependencies" {
 		style = filled,
 		fontname = "Monospace" ];
 
-	"Slackwill";
+	"Dakota Folger-Reeder";
+	"Peter Zujko";
+	"Reed Swiernik";
 	"Ross Delinger";
+	"Slackwill";
 
 	"Ross Delinger" -> "Slackwill";
+	"Slackwill" -> "Reed Swiernik";
+	"Slackwill" -> "Peter Zujko";
+	"Slackwill" -> "Dakota Folger-Reeder";
 }
