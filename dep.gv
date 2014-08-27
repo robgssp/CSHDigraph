@@ -8,7 +8,6 @@ digraph "Packet Dependencies" {
 		style = filled,
 		fontname = "Monospace" ];
 
-	"Alex Walcutt";
 	"Bradley Campbell";
 	"Channon Price";
 	"Dakota Folger-Reeder";
@@ -20,7 +19,6 @@ digraph "Packet Dependencies" {
 	"Matt Campbell";
 	"Matt Gambogi";
 	"Nick Depinet";
-	"Peter Zujko";
 	"Reed Swiernik";
 	"Ross Bayer";
 	"Ross Delinger";
