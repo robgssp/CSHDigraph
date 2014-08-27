@@ -1,0 +1,15 @@
+digraph "Packet Dependencies" {
+	graph [ fontname = "Monospace",
+	      	fontsize = 24,
+		label = "Freshman Packet Dependency Graph",
+		size = "6,6" ];
+	node [	shape = oval,
+	     	color = grey,
+		style = filled,
+		fontname = "Monospace" ];
+
+	"Slackwill";
+	"Ross Delinger";
+
+	"Ross Delinger" -> "Slackwill";
+}
