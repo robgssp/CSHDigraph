@@ -8,6 +8,7 @@ Format is pretty self-explanitory, read file.
 
 * Imagemagick
 * make
+* graphviz
 
 ### Command
 
