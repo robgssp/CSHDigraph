@@ -33,6 +33,10 @@ digraph "Packet Dependencies" {
 	"Steven DuBois"
 	"Travis Whitaker";
 	"William Orr";
+	"Derek Gonyeo";
+	"Matthew Veety";
+	"Rob Glossop";
+	"Sean McGary";
 
 	"Channon Price" -> "Eric Adams";
 	"Channon Price" -> "Ross Guarino";
@@ -57,4 +61,11 @@ digraph "Packet Dependencies" {
 	"William Orr" -> "Ross Delinger";
 	"William Orr" -> "Russell Harmon";
 	"William Orr" -> "Samani Gikandi";
+	"Rob Glossop" -> "Derek Gonyeo";
+	"Rob Glossop" -> "Matthew Veety";
+	"Rob Glossop" -> "Sean McGary";
+	"Rob Glossop" -> "Travis Whitaker";
+	"Samani Gikandi" -> "Ross Delinger";
+	"Samani Gikandi" -> "Travis Whitaker";
+	"Samani Gikandi" -> "William Orr";
 }
