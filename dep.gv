@@ -14,6 +14,7 @@ digraph "Packet Dependencies" {
 	"Chase Berry";
 	"Chris Lockfort";
 	"Dakota Folger-Reeder";
+	"Derek Gonyeo";
 	"Ehouse";
 	"Eric Adams";
 	"Harlan Haskins";
@@ -22,21 +23,22 @@ digraph "Packet Dependencies" {
 	"Joe Gambino";
 	"Matt Campbell";
 	"Matt Gambogi";
+	"Matt Sandler";
+	"Matthew Veety";
 	"Nick Depinet";
 	"Reed Swiernik";
+	"Rob Glossop";
 	"Ross Bayer";
 	"Ross Delinger";
 	"Ross Guarino";
 	"Russell Harmon";
 	"Samani Gikandi";
+	"Sean McGary";
 	"Slackwill";
+	"Stephen Demos";
 	"Steven DuBois"
 	"Travis Whitaker";
 	"William Orr";
-	"Derek Gonyeo";
-	"Matthew Veety";
-	"Rob Glossop";
-	"Sean McGary";
 
 	"Channon Price" -> "Eric Adams";
 	"Channon Price" -> "Ross Guarino";
@@ -45,10 +47,20 @@ digraph "Packet Dependencies" {
 	"Harlan Haskins" -> "Chase Berry";
 	"Joe Gambino" -> "JD";
 	"Joe Gambino" -> "Matt Gambogi";
+	"Matt Gambogi" -> "Matt Sandler";
+	"Matt Gambogi" -> "Russell Harmon";
+	"Matt Gambogi" -> "Stephen Demos";
+	"Rob Glossop" -> "Derek Gonyeo";
+	"Rob Glossop" -> "Matthew Veety";
+	"Rob Glossop" -> "Sean McGary";
+	"Rob Glossop" -> "Travis Whitaker";
 	"Ross Delinger" -> "Nick Depinet";
 	"Ross Delinger" -> "Ross Bayer";
 	"Ross Delinger" -> "Ross Guarino";
 	"Ross Delinger" -> "Slackwill";
+	"Samani Gikandi" -> "Ross Delinger";
+	"Samani Gikandi" -> "Travis Whitaker";
+	"Samani Gikandi" -> "William Orr";
 	"Slackwill" -> "Dakota Folger-Reeder";
 	"Slackwill" -> "Ehouse";
 	"Slackwill" -> "Reed Swiernik";
@@ -61,11 +73,5 @@ digraph "Packet Dependencies" {
 	"William Orr" -> "Ross Delinger";
 	"William Orr" -> "Russell Harmon";
 	"William Orr" -> "Samani Gikandi";
-	"Rob Glossop" -> "Derek Gonyeo";
-	"Rob Glossop" -> "Matthew Veety";
-	"Rob Glossop" -> "Sean McGary";
-	"Rob Glossop" -> "Travis Whitaker";
-	"Samani Gikandi" -> "Ross Delinger";
-	"Samani Gikandi" -> "Travis Whitaker";
-	"Samani Gikandi" -> "William Orr";
+        "Rob Glossop" -> "Chris Lockfort";
 }
